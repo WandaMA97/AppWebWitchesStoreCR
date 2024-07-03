@@ -1,0 +1,179 @@
+
+body{
+    background-image: url(img/fondo.png);
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    height: 100px;
+    backdrop-filter: blur(6px);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0.5em 0.5em 1em rgba(18, 14, 43, 0.602);
+    width: 100%;
+    border: 0px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+#navbarSupportedContent{
+    background-color: rgba(255, 255, 255, 0.637);
+    border: 0px;
+    border-radius: 25px;
+    position: absolute;
+    right: 16px;
+    top: 1em;
+}
+svg{
+    height: 40px;
+    transition: 95ms;    
+}
+svg:hover{
+    height: 41px;
+}
+footer{
+    color: white;
+    backdrop-filter: blur(6px);
+    background-color: rgba(159, 15, 147, 0.794);
+    padding: 0em 1em;
+    margin-top: 1em;
+}
+#principal{
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.456);
+    padding-top: 1em;
+}
+#logoNav{
+    width: 75px;
+    box-shadow: 0.5em 0.5em 0.5em rgba(18, 14, 43, 0.602);
+    border-radius: 50%;
+    transition: 95ms;
+}
+#logoNav:hover{
+    width: 80px; 
+}
+#btn{
+    background: linear-gradient(340deg,  #ae50bab8, #851f93c1, #6e50bacc);
+    color: white;
+    backdrop-filter: blur(2px);
+    transition: 95ms;
+}
+#btn:hover{
+    height: 50px;
+    width: 150px;
+    box-shadow: 0.5em 0.2em 0.5em rgba(33, 14, 43, 0.629);
+    font-size: x-large;
+}
+#cont1{
+    width: 50%;
+    color: rgb(58, 16, 52);
+    background-color: rgba(255, 255, 255, 0.675);
+    padding: 2em;
+    margin: 1em 0px;
+    border: 0px;
+    border-radius: 35px;
+    align-items: center;
+}
+.bgCar{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgCar1{
+    background-image: url(img/ImgCollaresP.jpeg);
+}
+.imgCar2{
+    background-image: url(img/ImgBitPop.jpeg);
+}
+.imgCar3{
+    background-image: url(img/ImgAnillos.jpeg);
+}
+.imgCar4{
+    background-image: url(img/ImgDivLect.jpeg);
+}
+.imgCar5{
+    background-image: url(img/ImgTazaDec.jpeg);
+}
+.textC{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.585);
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    padding: 1em;
+}
+#cont2{
+    background-color: white;
+    padding: 1em;
+}
+.card{
+    margin: 0.5em;
+}
+.imgCard{
+    padding-top: 0.5em;
+    height: 250px;
+}
+.shadCard{
+    border: 0px;
+    box-shadow: 0.5em 0.2em 0.5em rgba(61, 10, 89, 0.629);
+}
+#bisut{
+    margin: 1em 0px;
+}
+.titProd{
+    color: white;
+    text-shadow: 0.5em 0.5em 1em rgba(18, 14, 43, 0.602);
+}
+#row{
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#txtAbout{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.757);
+    color: rgb(67, 15, 93);
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 0em 1em;
+    height: 100%;
+}
+.line{
+    border-bottom: 1px solid rgb(67, 15, 93);
+}
+#formulario{
+    margin-top: 1em;
+    padding: 1em;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.757);
+    border: 0px;
+    border-radius: 10px;
+}
+.rowLog {
+    margin: 20px;
+}
+
+.nombre {
+    margin: 0;
+    padding: 0;
+}
+.espacio_nombre {
+    width: 100%;
+}
+.dropdownLog{
+   background: linear-gradient(340deg,  #ae50bab8, #851f93c1, #6e50bacc);
+    color: white;
+    backdrop-filter: blur(2px);
+    transition: 95ms; 
+}
+.dropdownLog:hover{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
